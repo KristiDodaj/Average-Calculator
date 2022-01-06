@@ -1,0 +1,317 @@
+body{
+	background-color: #180d59;
+	color: white;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 22px;
+}
+
+#final_mobile{
+    display: none;
+}
+
+#title{
+    position: absolute;
+    top: 90px;
+    left: 124px;
+
+}
+
+#weight{
+    position: absolute;
+    font-size: 22px;
+    top: 250px;
+    left: 250px;
+}
+
+#average{
+    position: absolute;
+    font-size: 22px;
+    top: 250px;
+    left: 500px;
+}
+
+#linkedin{
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+
+#github{
+    position: absolute;
+    top: 50px;
+    right: 250px;
+}
+
+#your{
+    position: absolute;
+    font-size: 69.1px;
+    top: 270px;
+    right: 100px;
+}
+
+#final_num{
+    position: absolute;
+    font-size: 130px;
+    top: 420px;
+    right: 160px;
+}
+
+#weight-form{
+    position: absolute;
+    top: 330px;
+    left: 210px;
+}
+
+#average-form{
+    position: absolute;
+    top: 330px;
+    left: 467px;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 7px;
+}
+
+button{
+    position: absolute;
+    background-color: #5271ff;
+	color: white;
+    font-size: 17px;
+	border: none;
+	border-radius: 3px;
+    padding: 10px 40px;
+}
+
+#add{
+   
+    top: 670px;
+    left: 360px;
+}
+
+#calculate{
+    display: inline-block;
+    white-space: nowrap;
+    top: 670px;
+    right: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px !important;
+}
+
+#calculate2{
+    display: none;
+}
+
+#logo{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+.purple{
+    color: #5271ff;
+}
+
+#final_num{
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #5271ff; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0em; /* Adjust as needed */
+    animation: 
+      typing 0.5s steps(30, end),
+      blink-caret 0.8s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 300px }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #5271ff }
+  }
+
+  @media only screen and (max-width: 1280px){
+
+  #your{
+      position: absolute;
+      top: 700px;
+      left: 200px;
+  }
+
+  #final_num{
+    position: absolute;
+    font-size: 147px;
+    top: 850px;
+    left: 200px;
+    }
+
+    #calculate{
+        top: 1200px;
+        left: 360px;
+    }
+
+    #add{
+        display: none;
+    }
+          
+}
+
+@media only screen and (max-width: 1040px){
+    #final_num{
+        position: absolute;
+        font-size: 147px;
+        top: 950px;
+        left: 200px;
+        }
+    
+        #calculate{
+            top: 1200px;
+            left: 360px;
+        }
+}
+
+@media only screen and (max-width: 964px){
+    #final_num{
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    #final_num{
+        top: 1040px;
+        font-size: 70px;
+    }
+}
+
+@media only screen and (max-width: 791px){
+    #weight-form{
+        left: 100px;
+    }
+
+    #average-form{
+        left: 357px;
+    }
+
+    #weight{
+        left: 137px;
+    }
+    
+    #average{
+        left: 390px;
+    }
+
+    #calculate{
+        left: 250px;
+    }
+}
+
+@media only screen and (max-width: 644px){
+    #linkedin{
+        visibility: hidden;
+    }
+    #github{
+        visibility: hidden;
+    }
+    #weight{
+        font-size: 15px;
+        left: 120px;
+    }
+    #average{
+        font-size: 15px;
+        left: 295px;
+    }
+    input{
+        width: 80px;
+    }
+    #average-form{
+        left: 280px;
+    }
+    #title{
+        left: 100px;
+    }
+    #logo{
+        left: 95px;
+    }
+    #your{
+        left: 100px;
+    }
+    #final_num{
+        left: 100px;
+    }
+    #calculate{
+        left: 180px;
+    }
+}
+
+@media only screen and (max-width: 492px){
+    #final_mobile{
+        display: block;
+        position: absolute;
+        top: 1020px;
+        left: 100px;
+        font-size: 70px;
+    }
+    #final_num{
+        display: none;
+    }
+
+    #weight{
+        left: 70px;
+    }
+    #average{
+        left: 220px;
+    }
+    #weight-form{
+        left: 50px;
+    }
+    #average-form{
+        left: 205px;
+    }
+    #title{
+        left: 50px;
+    }
+    #logo{
+        left: 45px;
+    }
+    #your{
+        left: 50px;
+    }
+    #final_mobile{
+        left: 50px;
+    }
+    #calculate{
+        display: none;
+    }
+
+    #calculate2{
+        display: inline-block;
+        top: 1250px;
+        margin-bottom: 5px !important;
+        left: 115px;
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+    #your{
+        font-size: 45px;
+    }
+    #final_mobile{
+        top: 900px;
+    }
+
+    #calculate2{
+        top: 1100px;
+        margin-bottom: 5px !important;
+        left: 115px;
+    }
+}
